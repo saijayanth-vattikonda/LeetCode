@@ -10,44 +10,44 @@
  * };
  */
 
-class Solution{
-public:
-    TreeNode* convertBST(TreeNode* root){
-        int nodeSum = 0;
-        stack<TreeNode*> st;
-        TreeNode* node = root;
-        while(!st.empty() || node != NULL){
-            while(node != NULL){
-                st.push(node);
-                node = node->right;
-            }
-            // Store the top value of stack in node and pop it.
-            node = st.top();
-            st.pop();
-
-            // Update value of node.
-            nodeSum += node->val;
-            node->val = nodeSum;
-            
-            node = node->left;
-        }
-        return root;
-    }
- };
-// class Solution {
-// private:
-//     void helper(TreeNode* root,int &nodeSum){
-//         if(root==NULL) return;
-
-//         helper(root->right, nodeSum);
-//         nodeSum += root->val;
-//         root->val = nodeSum;
-//         helper(root->left,nodeSum);
-//     }
+// class Solution{
 // public:
-//     TreeNode* convertBST(TreeNode* root) {
+//     TreeNode* convertBST(TreeNode* root){
 //         int nodeSum = 0;
-//         helper(root, nodeSum);
+//         stack<TreeNode*> st;
+//         TreeNode* node = root;
+//         while(!st.empty() || node != NULL){
+//             while(node != NULL){
+//                 st.push(node);
+//                 node = node->right;
+//             }
+//             // Store the top value of stack in node and pop it.
+//             node = st.top();
+//             st.pop();
+
+//             // Update value of node.
+//             nodeSum += node->val;
+//             node->val = nodeSum;
+            
+//             node = node->left;
+//         }
 //         return root;
 //     }
-// };
+//  };
+class Solution {
+private:
+    void helper(TreeNode* root,int &nodeSum){
+        if(root==NULL) return;
+
+        helper(root->right, nodeSum);
+        nodeSum += root->val;
+        root->val = nodeSum;
+        helper(root->left,nodeSum);
+    }
+public:
+    TreeNode* convertBST(TreeNode* root) {
+        int nodeSum = 0;
+        helper(root, nodeSum);
+        return root;
+    }
+};
