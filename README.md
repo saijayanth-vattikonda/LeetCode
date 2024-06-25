@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 # Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [1037-minimum-number-of-k-consecutive-bit-flips](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1037-minimum-number-of-k-consecutive-bit-flips) |
 # Prefix Sum
 |  |
@@ -42,3 +43,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+# Hash Table
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+# String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
