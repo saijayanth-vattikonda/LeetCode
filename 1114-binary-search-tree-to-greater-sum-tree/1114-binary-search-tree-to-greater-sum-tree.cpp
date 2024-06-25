@@ -10,36 +10,18 @@
  * };
  */
 class Solution {
-public:
-    void inorder(TreeNode* node, vector<int> &ans){
-        if(node==NULL) return;
-        inorder(node->left,ans);
-        ans.push_back(node->val);
-        inorder(node->right,ans);
-    }
-    void replaceValues(TreeNode*  root, vector<int>& ans){
-        if(root==NULL) return;
-
-        replaceValues(root->left, ans);
-        replaceValues(root->right,ans);
-
-        int nodeSum = 0;
-        for(auto it: ans){
-            if(it >= root->val){
-                nodeSum += it;
-            }else{
-                break;
-            }
-        }
+private:
+    void helper(TreeNode* root,int &nodeSum){
+        if(root == NULL) return;
+        helper(root->right, nodeSum);
+        nodeSum += root->val;
         root->val = nodeSum;
+        helper(root->left, nodeSum);
     }
+public:
     TreeNode* bstToGst(TreeNode* root) {
-        vector<int> ans;
-        inorder(root,ans);
-
-        reverse(ans.begin(),ans.end());
-
-        replaceValues(root, ans);
+        int nodeSum = 0;
+        helper(root,nodeSum);
         return root;
     }
 };
