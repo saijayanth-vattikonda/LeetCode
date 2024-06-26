@@ -11,16 +11,25 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        ListNode* temp = head;
-        int length = 0;
-        while(temp!=NULL){
-            length++;
-            temp = temp->next;
+        // BRUTE FORCE
+        // ListNode* temp = head;
+        // int length = 0;
+        // while(temp!=NULL){
+        //     length++;
+        //     temp = temp->next;
+        // }
+        // temp = head;
+        // for(int i=0;i<length/2;i++){
+        //     temp = temp->next;
+        // }
+        // return temp;
+
+        // Optimal Approach(Slow and fast Pointer)
+        ListNode *slow = head, *fast = head;
+        while(fast != NULL && fast->next != NULL){
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        temp = head;
-        for(int i=0;i<length/2;i++){
-            temp = temp->next;
-        }
-        return temp;
+        return slow;
     }
 };
