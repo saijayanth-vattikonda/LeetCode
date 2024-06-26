@@ -28,21 +28,25 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
 |  |
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Tree
 |  |
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
 # Hash Table
 |  |
 | ------- |
@@ -59,3 +63,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/0206-reverse-linked-list) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
+# Greedy
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/saijayanth-vattikonda/LeetCode/tree/master/1285-balance-a-binary-search-tree) |
